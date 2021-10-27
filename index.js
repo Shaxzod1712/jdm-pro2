@@ -198,13 +198,7 @@
 /////////// HOME WORK 2////////////
 
 
-// Function for Method pow
 
-function pow(a, b) {
-    return a ** b;
-}
-
-console.log(pow(8, 4));
 
 // Function for Method sqrt
 
@@ -232,6 +226,14 @@ function abs(a) {
 
 abs(-321)
 
+// Function for Method pow
+
+function pow(a, b) {
+    return a ** b;
+}
+
+console.log(pow(8, 4));
+
 // Function for Method round
 
 function round(a) {
@@ -239,6 +241,16 @@ function round(a) {
 
 }
 console.log(round(3.5))
+
+
+
+// Function for Method ceil
+
+function ceil(a) {
+    return (a + 0.5).toFixed(0);
+}
+console.log(ceil(2.001));
+
 
 // Function for Method floor 
 
@@ -253,12 +265,3 @@ function floor(a) {
   return (a - 0.5).toFixed(0);
 }
 console.log(floor(4.001));
-
-
-
-// Function for Method ceil
-
-function ceil(a) {
-    return (a + 0.5).toFixed(0);
-}
-console.log(ceil(2.001));
