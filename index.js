@@ -1,8 +1,8 @@
 
 
-// /////////////////  HOME WORK   //////
+// // /////////////////  HOME WORK   //////
 
-// //// masala 1
+// // //// masala 1
 
 
 // var a = 8;
@@ -10,13 +10,13 @@
 // console.log(p)
 
 
-////// masala 2
+// ////// masala 2
 
 // var a = 7;
 // var s = a ** 2;
 // console.log(s)
 
-/////// masala 3 
+// /////// masala 3 
 
 // var a = 4;
 // var b = 6;
@@ -25,14 +25,14 @@
 // console.log(s)
 // console.log(p)
 
-////////// masala 4 
+// ////////// masala 4 
 
 // var d = 4;
 // var p = 3.14;
 // var l = p * 4;
 // console.log(l)
 
-//////  masala 5
+// //////  masala 5
 
 // var a = 3;
 // var v = a ** 3;
@@ -40,7 +40,7 @@
 // console.log(v)
 // console.log(s)
 
-/////// masala 6
+// /////// masala 6
 
 // var a = 6;
 // var b = 12;
@@ -50,7 +50,7 @@
 // console.log(v)
 // console.log(s)
 
-//////// masala 7
+// //////// masala 7
 
 // var p = 3.14;
 // var r = 4;
@@ -59,21 +59,21 @@
 // console.log(l)
 // console.log(s)
 
-/////// masala 8 
+// /////// masala 8 
 
 // var a = 4;
 // var b = 8;
 // var c = (a + b) / 2;
 // console.log(c)
 
-////// masala 9 
+// ////// masala 9 
 
 // var a = 6;
 // var b = 10;
 // var og = (a + b) ** 0.5;
 // console.log(og)
 
-/////// masala 10
+// /////// masala 10
 
 // var a = 4;
 // var b = 7;
@@ -84,14 +84,14 @@
 // console.log(k)
 // console.log(kv)
 
-/////// masala 11
+// /////// masala 11
 
 
 
 
 
 
-//////////// masala 12
+// //////////// masala 12
 
 // var a = 4;
 // var b = 3;
@@ -99,7 +99,7 @@
 // var P = a + b + c;
 // console.log(P);
 
-////// masala 13
+// ////// masala 13
 
 // var r1 = 25;
 // var r2 = 20;
@@ -111,7 +111,7 @@
 // console.log(s2)
 // console.log(s3)
 
-////////////// masala 14
+// ////////////// masala 14
 
 // var p = 3.14;
 // var r = 7;
@@ -120,7 +120,7 @@
 // console.log(l)
 // console.log(s)
 
-/////// masala 15 
+// /////// masala 15 
 
 // var p = 3.14;
 // var r = 8;
@@ -129,14 +129,14 @@
 // console.log(l)
 // console.log(s)
 
-///////// masala 16  
+// ///////// masala 16  
 
 // var x1 = 40;
 // var x2 = 70;
 // var m = x2 - x1;
 // console.log(m) 
 
-/////// masala 17
+// /////// masala 17
 
 // var a = 13;
 // var b = 26;
@@ -146,7 +146,7 @@
 // var j = ac + bc;
 // console.log(j) 
 
-//////// masala 18
+// //////// masala 18
 
 // var a = 9;
 // var b = 17;
@@ -156,7 +156,7 @@
 // var k = ac * bc;
 // console.log(k)
 
-/////////// masala 19 
+// /////////// masala 19 
 
 // var a = 13;
 // var b = 23;
@@ -165,7 +165,7 @@
 // console.log(p)
 // console.log(s)
 
-///////// masala 20 
+// ///////// masala 20 
 
 // var x1 = 16;
 // var x2 = 23;
@@ -174,21 +174,91 @@
 // var m = ((x2 - x1) + (y2 - y1) ** 0.5);
 // console.log(m)
 
-///// masala 21
+// ///// masala 21
 
-var a = 8;
-var b = 13;
-var c = 11;
-var p = (a + b + c) / 2;
-var s = ((p * (p - a) * (p - b) * (p - c)) ** 0.5);
-console.log(s);
+// var a = 8;
+// var b = 13;
+// var c = 11;
+// var p = (a + b + c) / 2;
+// var s = ((p * (p - a) * (p - b) * (p - c)) ** 0.5);
+// console.log(s);
 
-//////// masala 22
+// //////// masala 22
 
-var a = 15;
-var b = 30;
-var c = a;
-var a = b;
-var b = c;
-console.log(a)
-console.log(b)
+// var a = 15;
+// var b = 30;
+// var c = a;
+// var a = b;
+// var b = c;
+// console.log(a)
+// console.log(b)
+
+
+
+/////////// HOME WORK 2////////////
+
+
+// Function for Method pow
+
+function pow(a, b) {
+    return a ** b;
+}
+
+console.log(pow(8, 4));
+
+// Function for Method sqrt
+
+function sqrt(a) {
+    return a ** 0.5;
+}
+
+console.log(sqrt(41));
+
+// Function for Method cbrt
+
+function cbrt(a) {
+  return (a ** (3/6));
+}
+
+ console.log(cbrt(17));
+
+// Function for Method abs
+
+function abs(a) {
+    a >= 0 && console.log(a);
+    
+    a < 0 && console.log(-a);
+}
+
+abs(-321)
+
+// Function for Method round
+
+function round(a) {
+   return (a).toFixed(0);
+
+}
+console.log(round(3.5))
+
+// Function for Method floor 
+
+function floor(a) {
+    return parseInt(a);
+}
+console.log(floor(4.9))
+
+// Function for Method floor2 
+
+function floor(a) {
+  return (a - 0.5).toFixed(0);
+}
+console.log(floor(4.001));
+
+
+
+// Function for Method ceil
+
+function ceil(a) {
+    return (a + 0.5).toFixed(0);
+}
+console.log(ceil(2.001));
